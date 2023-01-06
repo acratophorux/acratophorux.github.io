@@ -23,19 +23,25 @@ export default function GuestbookPage({ fallbackData }) {
 }
 
 export async function getStaticProps() {
-  const entries = await prisma.guestbook.findMany({
-    orderBy: {
-      updated_at: 'desc'
-    }
-  });
+  // const entries = await prisma.guestbook.findMany({
+  //   orderBy: {
+  //     updated_at: 'desc'
+  //   }
+  // });
 
-  const fallbackData = entries.map((entry) => ({
-    id: entry.id.toString(),
-    body: entry.body,
-    created_by: entry.created_by.toString(),
-    updated_at: entry.updated_at.toString()
-  }));
+  // const fallbackData = entries.map((entry) => ({
+  //   id: entry.id.toString(),
+  //   body: entry.body,
+  //   created_by: entry.created_by.toString(),
+  //   updated_at: entry.updated_at.toString()
+  // }));
 
+  const fallbackData = {
+    id: 'sdfh2394bu5',
+    body: 'I am sexy and I know it.',
+    created_by: 'acratophorux',
+    updated_at: ''
+  };
   return {
     props: {
       fallbackData
