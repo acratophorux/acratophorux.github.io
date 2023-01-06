@@ -1,0 +1,117 @@
+{
+  "sortedMiddleware": [],
+  "middleware": {},
+  "functions": {
+    "/api/subscribe": {
+      "env": [
+        "REVUE_API_KEY"
+      ],
+      "files": [
+        "server/edge-runtime-webpack.js",
+        "server/pages/api/subscribe.js"
+      ],
+      "name": "pages/api/subscribe",
+      "page": "/api/subscribe",
+      "matchers": [
+        {
+          "regexp": "^/api/subscribe$"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/api/subscribers": {
+      "env": [
+        "REVUE_API_KEY"
+      ],
+      "files": [
+        "server/edge-runtime-webpack.js",
+        "server/pages/api/subscribers.js"
+      ],
+      "name": "pages/api/subscribers",
+      "page": "/api/subscribers",
+      "matchers": [
+        {
+          "regexp": "^/api/subscribers$"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/api/unsplash": {
+      "env": [
+        "UNSPLASH_ACCESS_KEY"
+      ],
+      "files": [
+        "server/edge-runtime-webpack.js",
+        "server/pages/api/unsplash.js"
+      ],
+      "name": "pages/api/unsplash",
+      "page": "/api/unsplash",
+      "matchers": [
+        {
+          "regexp": "^/api/unsplash$"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/api/top-tracks": {
+      "env": [
+        "SPOTIFY_CLIENT_ID",
+        "SPOTIFY_CLIENT_SECRET",
+        "SPOTIFY_REFRESH_TOKEN"
+      ],
+      "files": [
+        "server/edge-runtime-webpack.js",
+        "server/pages/api/top-tracks.js"
+      ],
+      "name": "pages/api/top-tracks",
+      "page": "/api/top-tracks",
+      "matchers": [
+        {
+          "regexp": "^/api/top\\-tracks$"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/api/github": {
+      "env": [],
+      "files": [
+        "server/edge-runtime-webpack.js",
+        "server/pages/api/github.js"
+      ],
+      "name": "pages/api/github",
+      "page": "/api/github",
+      "matchers": [
+        {
+          "regexp": "^/api/github$"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    },
+    "/api/now-playing": {
+      "env": [
+        "SPOTIFY_CLIENT_ID",
+        "SPOTIFY_CLIENT_SECRET",
+        "SPOTIFY_REFRESH_TOKEN"
+      ],
+      "files": [
+        "server/edge-runtime-webpack.js",
+        "server/pages/api/now-playing.js"
+      ],
+      "name": "pages/api/now-playing",
+      "page": "/api/now-playing",
+      "matchers": [
+        {
+          "regexp": "^/api/now\\-playing$"
+        }
+      ],
+      "wasm": [],
+      "assets": []
+    }
+  },
+  "version": 2
+}
