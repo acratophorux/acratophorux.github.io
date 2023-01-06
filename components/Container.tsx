@@ -37,9 +37,9 @@ export default function Container(props) {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: 'Lee Robinson – Developer, writer, creator.',
-    description: `Front-end developer, JavaScript enthusiast, and course creator.`,
-    image: 'https://leerob.io/static/images/lee-banner.png',
+    title: 'Dinesh Kumar | The Improbability Drive',
+    description: `powered by ♥️`,
+    image: 'public/dice.png',
     type: 'website',
     ...customMeta
   };
