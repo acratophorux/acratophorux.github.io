@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Container from 'components/Container';
 import avatar from 'public/avatar.jpg';
 import avatarBW from 'public/avatar-bw.jpg';
+import avatarCL from 'public/avatar_CL.jpg';
 
 export default function About() {
   return (
@@ -93,12 +94,12 @@ export default function About() {
                 className="rounded-md"
               />
             </a>
-            <a href="/avatar.jpg">
+            <a href="/avatar_CL.jpg">
               <Image
                 alt="Dinesh Kumar headshot"
                 width={400}
                 quality={100}
-                src={avatar}
+                src={avatarCL}
                 className="rounded-md"
               />
             </a>
