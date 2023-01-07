@@ -86,12 +86,10 @@ export default function Home() {
           </Link>
 
           <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-16 text-black dark:text-white">
-            Learn React & Next.js
+            YouTube Collection
           </h3>
           <p className="text-gray-600 dark:text-gray-400 mb-4">
-            Build and deploy a modern SaaS application using the most popular
-            open-source software. This course is 12 hours long and is completely
-            live streamed.
+            List of YouTube videos I found interesting.
           </p>
           <VideoCard
             index="01"

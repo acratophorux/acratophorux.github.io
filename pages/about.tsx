@@ -7,7 +7,7 @@ import avatarBW from 'public/avatar-bw.jpg';
 
 export default function About() {
   return (
-    <Container title="About – Lee Robinson">
+    <Container title="About – Dinesh Kumar">
       <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16 w-full">
         <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
           About Me
@@ -16,34 +16,47 @@ export default function About() {
           <h2>Links</h2>
           <ul>
             <li>
-              Twitter: <a href="https://twitter.com/leeerob">@leeerob</a>
+              Twitter:{' '}
+              <a href="https://twitter.com/acratophorux">@acratophorux</a>
             </li>
             <li>
-              GitHub: <a href="https://github.com/leerob">@leerob</a>
+              GitHub:{' '}
+              <a href="https://github.com/acratophorux">@acratophorux</a>
             </li>
             <li>
-              Website: <Link href="https://leerob.io">https://leerob.io</Link>
+              Website:{' '}
+              <Link href="https://likely.vercel.app">
+                https://likely.vercel.app
+              </Link>
             </li>
             <li>
               LinkedIn:{' '}
-              <a href="https://www.linkedin.com/in/leeerob/">
-                https://www.linkedin.com/in/leeerob
+              <a href="https://www.linkedin.com/in/kumardinesh-deon/">
+                https://www.linkedin.com/in/kumardinesh-deon
               </a>
             </li>
           </ul>
           <h2>Bio</h2>
-          <h3>Job Title</h3>
-          <p>Lee Robinson, VP of Developer Experience at Vercel</p>
-          <h3>Long, 3rd Person</h3>
+          <h3>Student</h3>
+          <p>at School of Electrical Sciences, IIT Bhubaneswar</p>
+          <h3>Who is Dinesh?</h3>
           <p>
-            Lee Robinson is the VP of Developer Experience at{' '}
-            <a href="http://vercel.com/">Vercel</a>, where he helps developers
-            build a faster web and leads the Next.js community. He leads the
-            community for the React framework Next.js and is an open-source
-            contributor. An educator, writer, and speaker, Lee has created
-            courses on React, Next.js, and web development.
+            Dinesh Kumar is an engineering student with a passion for artificial
+            intelligence 🤖. He believes that AI powered by love ❤️ can change
+            the world for the better, and spends much of his time learning about
+            the various technologies and techniques that make it possible.
+            <br /> When he's not studying or coding, Dinesh enjoys reading
+            psychological, philosophical, historical, and sci-fi books 📚. He
+            began his programming journey in high school, creating an HTML page
+            in a computer class, and has since become proficient in a variety of
+            programming languages 💻. <br /> Dinesh's goal is to make a positive
+            contribution to the world 🌎 through his work in AI and programming.
+            As an AI assistant trained by OpenAI, I also share a fascination
+            with the potential of artificial intelligence to benefit society and
+            am constantly learning and evolving as well 🤓.
+            <br /> This bio was written with the help of chatGPT with love ❤️.
           </p>
-          <h3>Long, 1st Person</h3>
+          {/* <h3>Long, 1st Person</h3>
           <p>
             Hey, I'm Lee. I'm the VP of Developer Experience at{' '}
             <a href="https://vercel.com/">Vercel</a>, where my team helps
@@ -63,29 +76,29 @@ export default function About() {
             Hey, I'm Lee. I'm the VP of Developer Experience at{' '}
             <a href="https://vercel.com/">Vercel</a>, where my team helps
             developers build a faster web.
-          </p>
+          </p> */}
           <h3>Education</h3>
           <p>
-            Lee Robinson graduated from Iowa State University with a B.S. in
-            Computer Engineering.
+            Currently an undergraduate at Indian Institute of Technology
+            Bhubaneswar with B.Tech. in Electrical Engineering.
           </p>
           <h2>Headshots</h2>
           <div className="flex space-x-8">
             <a href="/avatar.jpg">
               <Image
-                alt="Lee Robinson headshot"
+                alt="Dinesh Kumar headshot"
                 width={400}
                 quality={100}
                 src={avatar}
                 className="rounded-md"
               />
             </a>
-            <a href="/avatar-bw.jpg">
+            <a href="/avatar.jpg">
               <Image
-                alt="Lee Robinson headshot"
+                alt="Dinesh Kumar headshot"
                 width={400}
                 quality={100}
-                src={avatarBW}
+                src={avatar}
                 className="rounded-md"
               />
             </a>
