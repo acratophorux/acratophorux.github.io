@@ -6,6 +6,7 @@ import { InferGetStaticPropsType } from 'next';
 import { indexQuery } from 'lib/queries';
 import { getClient } from 'lib/sanity-server';
 import { Post } from 'lib/types';
+import WorkInProgress from 'components/WorkInProgress';
 
 export default function Blog({
   posts
@@ -17,13 +18,14 @@ export default function Blog({
 
   return (
     <Container
-      title="Blog – Lee Robinson"
+      title="Blog – Dinesh Kumar"
       description="Thoughts on the software industry, programming, tech, videography, music, and my personal life."
     >
       <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
         <h1 className="mb-4 text-3xl font-bold tracking-tight text-black md:text-5xl dark:text-white">
           Blog
         </h1>
+        <WorkInProgress />
         <p className="mb-4 text-gray-600 dark:text-gray-400">
           {`I've been writing online since 2014, mostly about web development and tech careers.
             In total, I've written ${posts.length} articles on my blog.
